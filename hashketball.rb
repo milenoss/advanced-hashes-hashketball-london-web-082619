@@ -278,12 +278,8 @@ def team_colors(team)
        game_hash.each do |team_position,team_data|
       team_data.each do |team,name|
         binding.pry
-        #team = is the key team name and name is the value of the team name which is Brooklyn nets or Charlotte hornets.
         if team == :team_name
-          arr.push(name)
-          
-        #team = :teamname and name = teamname in strings.
-        
+         arr.push(name)
        end
      end
    end
