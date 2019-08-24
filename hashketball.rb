@@ -169,7 +169,7 @@ scores = 0
   # binding.pry
   if player_name == :players                  
   information.each do |name, numbers|
-    binding.pry
+   # binding.pry
   if name == sportsman              
   numbers.each do |key, value|
     # binding.pry
@@ -186,7 +186,8 @@ end
 
 This method will find shoe_size of particular player in the game_hash. 
 We will define the shoe_size method and pass a parameter (foot).
-When binding.pry is used you can check the foot parameter will be 
+You can check the foot parameter value by using binding.pry
+
 
 def shoe_size (foot)
   binding.pry
