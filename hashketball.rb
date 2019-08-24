@@ -288,7 +288,8 @@ def team_colors(team)
  
   end
   
-  #iterate over the main hashes and then dig one step in and then another step to get to players numbers. once you there just match the variable to the key to get results. push it into a new array .  
+  #iterate over the main hashes and then dig one step in and then another step to get to players numbers. once you there just match the variable to the key to get results. push it into a new array
+  
   
   def player_numbers(array)
     place_holder = []
