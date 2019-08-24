@@ -146,10 +146,11 @@ end
   # # Before iterating again we can use an if statement to check if :team name(players_name) will be equal to :players. It will be true ! as they are both keys in the same hash. 
   # # We can now iterate over the information which holds values to  team information and assign a new variable calling it key and value as name and numbers
   # name = "Alan anderson" It can be any players name. 
-  # key = 
+  # numbers = will have the players stats. 
+  
   # # With this iteration we would have got to the key where the #name of players resides. 
   # We will again use if statement to check if name == sportsman 
-  # we know it will be true ! since sportsman is a random players name. 
+  # we know it will be true ! since sportsman is a random players # name and so is our name variable.
   # Now we will iterate over the value of the players(numbers)
   # numbers.each do will have key and a value again. 
   # We will do a if statment here and check if the key will be ==:points and if it doesn then we will assign the value to the score = 0 placeholder which we defined at the beggining.
