@@ -228,15 +228,19 @@ def shoe_size (foot)
   end
 end
 
-# This method requires us to find the colors of the team. 
-# We will start of with defining the team_colors method and pass one parameter(team).
- team = "Brooky nets"
- We will iterate using each do method over game_hash and assign team_position and team_data. 
- team_position = :home
- team_data = value of :home eg. :team_name :colors :player etc
-We will iterate over team_data and assign key and value which are team_color and team_data. 
-Team_color = team_name 
-Team_goal =  color of the jersey 
+# # This method requires us to find the colors of the team. 
+# # We will start of with defining the team_colors method and pass one parameter(team).
+# team = "Brooky nets"
+# We will iterate using each do method over game_hash and assign team_position and team_data. 
+# team_position = :home
+# team_data = value of :home eg. :team_name :colors :player etc
+# We will iterate over team_data and assign key and value which are team_color and team_data. 
+# Team_color = team_name 
+# Team_goal =  team_name value which is = Brookly nets. 
+# We can now compare if team_name == name and returning 
+# game_hash[team_position][:colors] 
+# This way we can directly access the colors of the team. 
+
 def team_colors(team)
     game_hash.each do |team_position,team_data|
     #team_position is key and results home and away . team_data is value of home and away values
@@ -255,6 +259,15 @@ def team_colors(team)
        end
     end
     
+  # The method requires us to team_names and pases no parameter as the instructions does not pass any argument here. However it is asking us to return an array of team. 
+  # We will assign an empty array after defining the team_names to store our results. 
+  # We begin with iterating game_hash with key and value. team_position is key and team_data is value. 
+  # team_position = :home
+  # team_data = values of :home
+  
+  # We will iterate again over team_data and assign key and value which is team and name. 
+  # team = 
+  
     
     def team_names
        arr = []
@@ -264,6 +277,7 @@ def team_colors(team)
         #team = is the key team name and name is the value of the team name which is Brooklyn nets or Charlotte hornets.
         if team == :team_name
           arr.push(name)
+          binding.pry
         #team = :teamname and name = teamname in strings.
         
        end
