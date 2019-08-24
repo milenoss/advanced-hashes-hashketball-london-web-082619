@@ -130,24 +130,45 @@ hash = {
    }
 end
 
+
+
 # def num_points_scored  - 
 #   We will now find the number of points scored by any particular player. 
 #   We will pass a parameter called sportsman. You can place it as anything you want. If you do binding.pry you will see a random player name being passed by the test in the method. 
 # We need to call our main method inside this method so we can iterate over it with each.do method. 
 # We will also have to put a place holder scores = 0. We are doing this to assign the variable at the later stage when we are able to pull the scores. 
 # Start by iterating game_hash.each do with a key and value. In our example we have got team_position as key and team_data as the value. 
-# When we check the the key and value in binding.pry. We will see # team_position = 
+# When we check the the key and value in binding.pry. We will see # team_position = :home and team_data = be the value of the home :team_name, :colors, :players  etc 
+# We will iterate over the team_data again to get to the points. 
+ # When we iterate over team_data will assign again a key of #player_name and information as a value. 
+  # player_name will result = :team_name 
+  # # informatin will be the value of those keys in this example :"Brooklyn nets."
+  # # Before iterating again we can use an if statement to check if :team name(players_name) will be equal to :players. It will be true ! as they are both keys in the same hash. 
+  # # We can now iterate over the information which is a value of team_data and assigne a new variable calling it key, and value to be name.
+  # name =
+  # key = 
+  # # With this iteration we would have got to the key where the #name of players resides. 
+  # We will again use if statement to check if name == sportsman 
+  # we know it will be true ! since sportsman is a random players name. 
+  # Now we will iterate over the value of the players(numbers)
+  # numbers.each do will have key and a value again. 
+  # We will do a if statment here and check if the key will be ==:points and if it doesn then we will assign the value to the score = 0 placeholder which we defined at the beggining.
+   
+  # Once done we will end the method with 8 ends as we have used alot of each and if method. 
+  # The result of the method will show how many points any particular player scored. 
+
+
 def num_points_scored (sportsman)
   #binding.pry
 game_hash
 scores = 0
   game_hash.each do |team_position, team_data|
-    binding.pry
+    #binding.pry
   team_data.each do | player_name, information|
   # binding.pry
   if player_name == :players                  
   information.each do |name, numbers|
-    #binding.pry
+    binding.pry
   if name == sportsman              
   numbers.each do |key, value|
     # binding.pry
