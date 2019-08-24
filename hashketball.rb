@@ -193,7 +193,8 @@ end
 # binding.pry will tell us what team_position will be :home and team_data is the home team value :team_name :colors etc. 
 # We will now iterate over team_data to get to the shoe size. We will pass player_name as key and player_size value. 
 Player_name = :players
-player_size = 
+player_size = "Jeff Adrien" and its value :number, :points etc.
+
 
 
 def shoe_size (foot)
