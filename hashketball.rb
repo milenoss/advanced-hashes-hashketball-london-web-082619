@@ -1,4 +1,18 @@
 require 'pry'
+
+# We will start by defining require 'pry' at the top because this lab will make use of binding.pry alot. 
+
+# def game_hash will be the main method with all the data. 
+
+#   With the data provided by the lab. We will start building a new hash to arrange the home team data.The same will be required for away team. I am only going to explain you the step by step process for the home team and you can do the same for the away. 
+#   This will take some time but make sure your curly brackets are opened and closed at the right places to avoid errors. 
+#   In my method i have created a new hash and named it as hash { 
+#     I then created a key  :home =>{ placed another set of keys :team_name, :colors and :players inside the hash. 
+#     :team_name key value is a string "Brooklyn Netsand" :colors value is inside an strings inside an array.["Black" and "White".]
+#       :players[is a key][but value to :home] will have to be be under a different hash so swe will open the hash again for players and then add the players name will be a string "Alan Anderson"[is a key but value to players]. This player stats will be under a new hash. :number => 0, :shoe => 16 etc..  make sure to close the hash for players which you created. The hash for :home and hash at the begining can be closed at the end of home team data.
+       
+#       The results should look like below - 
+       
 def game_hash
 
 hash = {
@@ -116,10 +130,19 @@ hash = {
    }
 end
 
+# def num_points_scored  - 
+#   We will now find the number of points scored by any particular player. 
+#   We will pass a parameter called sportsman. You can place it as anything you want. If you do binding.pry you will see a random player name being passed by the test in the method. 
+# We need to call our main method inside this method so we can iterate over it with each.do method. 
+# We will also have to put a place holder scores = 0. We are doing this to assign the variable at the later stage when we are able to pull the scores. 
+# Start by iterating game_hash.each do with a key and value. In our example we have got team_position as key and team_data as the value. 
+# When we check the the key and value in binding.pry. We will see # team_position = 
 def num_points_scored (sportsman)
+  #binding.pry
 game_hash
 scores = 0
   game_hash.each do |team_position, team_data|
+    binding.pry
   team_data.each do | player_name, information|
   # binding.pry
   if player_name == :players                  
