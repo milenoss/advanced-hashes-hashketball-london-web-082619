@@ -233,7 +233,7 @@ end
  team = "Brooky nets"
  We will iterate using each do method over game_hash and assign team_position and team_data. 
  team_position = :home
- team_data = 
+ team_data = value of :home eg. :teamname :colors :player
 
 def team_colors(team)
     game_hash.each do |team_position,team_data|
