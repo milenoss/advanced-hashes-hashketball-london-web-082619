@@ -198,7 +198,7 @@ We will compare players_name  == :players which will result in true.
 The logic behind the comparison is to iterate and compare it to already given hash on the data so it comes true. 
 
 We will iterate again on player_size using each.do method and pass name and number as our variable. 
-name = 
+name = "Desanga Diop"
 numbers = 
 
 
