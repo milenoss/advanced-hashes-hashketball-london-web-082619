@@ -229,7 +229,8 @@ def shoe_size (foot)
 end
 
 # This method requires us to find the colors of the team. 
-# We will start of with defining the team_colors method and pass one parameter (team).
+# We will start of with defining the team_colors method and pass one parameter(team).
+ 
 
 def team_colors(team)
     game_hash.each do |team_position,team_data|
