@@ -191,16 +191,21 @@ end
 # We will use a place holder shoe_sizett = 0 to store our shoe size  value. 
 ## Now we can iterate the game_hash with each method and pass a #key and value variable in the block. In this case it will be #team_position and team_data again. 
 # binding.pry will tell us what team_position will be :home and team_data is the home team value :team_name :colors etc. 
-# We will now iterate over team_data to get to the shoe size. We will pass player_name as key and player_size value. 
-player_name = :players
-player_size = "Jeff Adrien" and its value :number, :points etc.
-We will compare players_name  == :players which will result in true. 
-The logic behind the comparison is to iterate and compare it to already given hash on the data so it comes true. 
+# # We will now iterate over team_data to get to the shoe size. We will pass player_name as key and player_size value. 
+# player_name = :players
+# player_size = "Jeff Adrien" and its value :number, :points etc.
+# We will compare players_name  == :players which will result in true. 
+# The logic behind the comparison is to iterate and compare it to already given hash on the data so it comes true. 
 
-We will iterate again on player_size using each.do method and pass name and number as our variable. 
-name = "Desanga Diop"
-numbers = 
-
+# We will iterate again on player_size using each.do method and pass name and number as our variable. 
+# name = "Desanga Diop"
+# numbers = stats of the player. :number :shoe etc. 
+ 
+# Since we know foot parameter is players name now we can compare the foot to the name variable. It will result in true 
+# so we can iterate numbers variable to get the shoe size. 
+# We will iterate numbers and pass |key and value| in the block. 
+# Use if to compare if key ==:shoe if its is then we will assign the place holder and return shoe_sizett = value. 
+# That should give us particular players shoe size. Please make  # sure you have closed out all the blocks.
 
 def shoe_size (foot)
   
@@ -212,11 +217,8 @@ def shoe_size (foot)
           if name == foot
             numbers.each do |key, value|
               if key == :shoe 
-                binding.pry
+               # binding.pry
                return shoe_sizett = value
-              
-
-    
                 end
              end
             end    
