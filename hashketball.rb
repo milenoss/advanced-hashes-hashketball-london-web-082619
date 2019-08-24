@@ -228,6 +228,8 @@ def shoe_size (foot)
   end
 end
 
+This method requires us to find the colors of the team. 
+We will start of with defining the team_colors method and pass one parameter (team).
 
 def team_colors(team)
     game_hash.each do |team_position,team_data|
@@ -237,7 +239,7 @@ def team_colors(team)
      
        if team_goal == team
          #so we are comparing team_goal which is team name and the argument team which is also team name.
-
+      #binding.pry
       return game_hash[team_position][:colors]
       # we are returning the main hash game_hash[team_position which is home and away here] then the colors.
          
