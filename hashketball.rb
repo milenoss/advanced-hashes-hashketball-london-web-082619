@@ -194,8 +194,12 @@ end
 # We will now iterate over team_data to get to the shoe size. We will pass player_name as key and player_size value. 
 player_name = :players
 player_size = "Jeff Adrien" and its value :number, :points etc.
-We will compare players_name  == :players
-We will iterate again using each.do method and pass name and number as our variable. 
+We will compare players_name  == :players which will result in true. 
+The logic behind the comparison is to iterate and compare it to already given hash on the data so it comes true. 
+
+We will iterate again on player_size using each.do method and pass name and number as our variable. 
+name = 
+numbers = 
 
 
 def shoe_size (foot)
