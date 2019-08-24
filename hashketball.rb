@@ -153,7 +153,7 @@ end
   # we know it will be true ! since sportsman is a random players # name and so is our name variable.
   # Now we will iterate over the value of the players(numbers)
   # numbers.each do will have key and a value again. 
-  # We will do a if statment here and check if the key will be ==:points and if it doesn then we will assign the value to the score = 0 placeholder which we defined at the beggining.
+  # We will do a if statment here and check if the key will be #==:points and if it doesn then we will assign the value to #the score = 0 placeholder which we defined at the beggining.
    
   # Once done we will end the method with atleast 8 number of ends as we have used alot of each and if in the method.
   # The result of the method will show how many points any particular player scored. 
@@ -184,7 +184,12 @@ scores = 0
 end
 end
 
+This method will find shoe_size of particular player in the game_hash. 
+We will define the shoe_size method and pass a parameter (foot).
+When binding.pry is used you can check the foot parameter will be 
+
 def shoe_size (foot)
+  binding.pry
   shoe_sizett = 0
   game_hash.each do | team_position,team_data|
     team_data.each do |player_name, player_size|
