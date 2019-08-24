@@ -145,7 +145,7 @@ end
   # # informatin will be the value of those keys in this example :"Brooklyn nets."
   # # Before iterating again we can use an if statement to check if :team name(players_name) will be equal to :players. It will be true ! as they are both keys in the same hash. 
   # # We can now iterate over the information which is a value of team_data and assigne a new variable calling it key, and value to be name.
-  # name =
+  # name = "Alan anderson" It can be any players name. 
   # key = 
   # # With this iteration we would have got to the key where the #name of players resides. 
   # We will again use if statement to check if name == sportsman 
