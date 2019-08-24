@@ -190,19 +190,21 @@ end
 # foot = a random players name in this case it is "Jeff Adrien"
 # We will use a place holder shoe_sizett = 0 to store our shoe size  value. 
 ## Now we can iterate the game_hash with each method and pass a #key and value variable in the block. In this case it will be #team_position and team_data again. 
-# binding.pry will tell us what team_data is 
+# binding.pry will tell us what team_position will be :home and team_data is the home team value :team_name :colors etc. 
+# We will now iterate over team_data to get to the shoe size. We will pass player_name as key and player_size value. 
+
 
 def shoe_size (foot)
   
   shoe_sizett = 0
   game_hash.each do | team_position,team_data|
-    binding.pry
     team_data.each do |player_name, player_size|
       if player_name == :players
         player_size.each do |name, numbers|
           if name == foot
             numbers.each do |key, value|
               if key == :shoe 
+                binding.pry
                return shoe_sizett = value
               
 
