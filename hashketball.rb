@@ -189,8 +189,8 @@ end
 # You can check the foot parameter value by using binding.pry
 # foot = a random players name in this case it is "Jeff Adrien"
 # We will use a place holder shoe_sizett = 0 to store our shoe size  value. 
-# Now we can iterate the game_hash with each method and pass a key and value variable in the block. In this case it will be team_position and team_data again. 
- binding.pry will tell us what team
+# # Now we can iterate the game_hash with each method and pass a key and value variable in the block. In this case it will be team_position and team_data again. 
+# binding.pry will tell us what team
 
 def shoe_size (foot)
   
