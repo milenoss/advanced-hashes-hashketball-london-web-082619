@@ -270,8 +270,8 @@ def team_colors(team)
   # name = 
   # We can then compare the values 
   # if team == :team_name  which will be true. 
-  #   We can then push the arr.push(name) which we passed in the block as value and 
-    return arr  to get results.
+  # #   We can then push the arr.push(name) which we passed in the block as value and 
+  #   return arr  to get results.
   
     
     def team_names
