@@ -184,9 +184,9 @@ scores = 0
 end
 end
 
-This method will find shoe_size of particular player in the game_hash. 
-We will define the shoe_size method and pass a parameter (foot).
-You can check the foot parameter value by using binding.pry
+# This method will find shoe_size of particular player in the game_hash. 
+# We will define the shoe_size method and pass a parameter (foot).
+# You can check the foot parameter value by using binding.pry
 
 
 def shoe_size (foot)
