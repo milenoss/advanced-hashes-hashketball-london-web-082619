@@ -232,7 +232,7 @@ end
 # We will start of with defining the team_colors method and pass one parameter(team).
  team = "Brooky nets"
  We will iterate using each do method over game_hash and assign team_position and team_data. 
- team_position =
+ team_position = :home
  team_data = 
 
 def team_colors(team)
