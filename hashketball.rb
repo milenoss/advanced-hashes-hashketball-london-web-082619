@@ -192,6 +192,8 @@ end
 ## Now we can iterate the game_hash with each method and pass a #key and value variable in the block. In this case it will be #team_position and team_data again. 
 # binding.pry will tell us what team_position will be :home and team_data is the home team value :team_name :colors etc. 
 # We will now iterate over team_data to get to the shoe size. We will pass player_name as key and player_size value. 
+Player_name = :players
+player_size = 
 
 
 def shoe_size (foot)
