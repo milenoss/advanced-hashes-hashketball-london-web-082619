@@ -230,7 +230,10 @@ end
 
 # This method requires us to find the colors of the team. 
 # We will start of with defining the team_colors method and pass one parameter(team).
- 
+ team = "Brooky nets"
+ We will iterate using each do method over game_hash and assign team_position and team_data. 
+ team_position =
+ team_data = 
 
 def team_colors(team)
     game_hash.each do |team_position,team_data|
