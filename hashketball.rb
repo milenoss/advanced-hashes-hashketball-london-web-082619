@@ -235,7 +235,8 @@ end
  team_position = :home
  team_data = value of :home eg. :team_name :colors :player etc
 We will iterate over team_data and assign key and value which are team_color and team_data. 
-Team_color = 
+Team_color = team_name 
+Team_goal =  color of the jersey 
 def team_colors(team)
     game_hash.each do |team_position,team_data|
     #team_position is key and results home and away . team_data is value of home and away values
