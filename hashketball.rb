@@ -262,7 +262,7 @@ def team_colors(team)
   # The method requires us to team_names and pases no parameter as the instructions does not pass any argument here. However it is asking us to return an array of team. 
   # We will assign an empty array after defining the team_names to store our results. 
   # We begin with iterating game_hash with key and value. team_position is key and team_data is value. 
-  # team_position = :home
+  # team_position = :home and away it loops through these values.
   # team_data = values of :home
   
   # We will iterate again over team_data and assign key and value which is team and name. 
