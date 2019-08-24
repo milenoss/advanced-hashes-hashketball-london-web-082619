@@ -234,7 +234,8 @@ end
  We will iterate using each do method over game_hash and assign team_position and team_data. 
  team_position = :home
  team_data = value of :home eg. :team_name :colors :player etc
-
+We will iterate over team_data and assign key and value which are team_color and team_data. 
+Team_color = 
 def team_colors(team)
     game_hash.each do |team_position,team_data|
     #team_position is key and results home and away . team_data is value of home and away values
