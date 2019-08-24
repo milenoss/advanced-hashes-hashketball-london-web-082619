@@ -270,14 +270,15 @@ def team_colors(team)
   # name = 
   # We can then compare the values 
   # if team == :team_name  which will be true. 
-  #   We can then push the name which was the value 
+  #   We can then push the arr.push(name) which we passed in the block as value and 
+    return arr  to get results.
   
     
     def team_names
        arr = []
        game_hash.each do |team_position,team_data|
       team_data.each do |team,name|
-        binding.pry
+      
         if team == :team_name
          arr.push(name)
        end
