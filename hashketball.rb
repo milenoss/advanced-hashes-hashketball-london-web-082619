@@ -155,7 +155,7 @@ end
   # numbers.each do will have key and a value again. 
   # We will do a if statment here and check if the key will be ==:points and if it doesn then we will assign the value to the score = 0 placeholder which we defined at the beggining.
    
-  # Once done we will end the method with 8 ends as we have used alot of each and if method. 
+  # Once done we will end the method with atleast 8 number of ends as we have used alot of each and if in the method.
   # The result of the method will show how many points any particular player scored. 
 
 
