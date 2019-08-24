@@ -266,7 +266,11 @@ def team_colors(team)
   # team_data = values of :home
   
   # We will iterate again over team_data and assign key and value which is team and name. 
-  # team = 
+  # team = is the key team name Brooklyn nets or Charlotte hornets. 
+   name = 
+  We can then compare the values 
+  if team == :team_name  which will be true. 
+    We can then push the name which was the value 
   
     
     def team_names
@@ -274,10 +278,11 @@ def team_colors(team)
        game_hash.each do |team_position,team_data|
         #teamposition = home and away team. team_data = value of home and away
       team_data.each do |team,name|
+        binding.pry
         #team = is the key team name and name is the value of the team name which is Brooklyn nets or Charlotte hornets.
         if team == :team_name
           arr.push(name)
-          binding.pry
+          
         #team = :teamname and name = teamname in strings.
         
        end
